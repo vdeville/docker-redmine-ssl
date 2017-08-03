@@ -15,6 +15,7 @@ services:
       REDMINE_DB_PASSWORD: redmine
       REDMINE_DB_DATABASE: redmine
     volumes:
+      - ./redmine/themes:/usr/src/redmine/public/themes
       - ./redmine/datadir:/usr/src/redmine/files
   db:
     image: mysql
