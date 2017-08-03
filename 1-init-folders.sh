@@ -4,6 +4,7 @@ echo "Create folders..."
 
 # Stack requirements
 mkdir -p ./redmine/datadir
+mkdir -p ./redmine/themes
 mkdir -p ./redmine/mysql/data
 mkdir -p ./redmine/nginx/logs
 mkdir -p ./redmine/nginx/certs
